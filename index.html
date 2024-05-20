@@ -1,10 +1,12 @@
 <script>
-    let idade =prompt("insira sua idade")
-
-    if(idade >= 18){
-        document.write("você pode dirigir")
-
-    }else{
-        document.write("você não pode dirigir")
+    var idade = prompt("Insira sua idade")
+function VerificarIdade(idade){
+ if (idade => 18){
+         return alert("Voce pode dirigir")
+    } else {
+        return alert("Voce nao pode dirigir")
     }
+} 
+VerificarIdade()
+
 </script>
